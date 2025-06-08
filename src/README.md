@@ -9,19 +9,23 @@ A dynamic, interactive, and data-driven **Fertilizer Dashboard** built using **R
 ## 📊 Features
 
 - 📌 **Dashboard Overview Cards**
+
   - Total Fertilizers
   - Total States Covered
   - Total Records Tracked
 
 - 🥇 **Top Fertilizers Analysis (Pie Charts)**
+
   - Top 5 Most Required Fertilizers
   - Top 5 Least Available Fertilizers
 
 - 📅 **Year-wise Comparison (Bar Chart)**
+
   - Filter by **Fertilizer Product** and **State**
   - Visualize total **Requirement vs Availability** per year
 
 - 📆 **Month-wise Comparison (Area Chart)**
+
   - Filter by **Fertilizer Product** and **Year**
   - Beautiful smooth area chart to show monthly **Requirement vs Availability**
 
@@ -34,14 +38,14 @@ A dynamic, interactive, and data-driven **Fertilizer Dashboard** built using **R
 
 ## 🛠️ Tech Stack Used
 
-| Technology | Description |
-|------------|-------------|
-| **React.js** | UI library for building reusable components |
-| **Recharts** | Charting library used for all beautiful charts |
-| **AG Grid** | Professional data table to manage large datasets |
-| **CSS3** | Clean and responsive styling |
-| **JavaScript (ES6)** | Functional and modern code |
-| **Fake JSON Data** | Randomly generated realistic fertilizer dataset |
+| Technology           | Description                                      |
+| -------------------- | ------------------------------------------------ |
+| **React.js**         | UI library for building reusable components      |
+| **Recharts**         | Charting library used for all beautiful charts   |
+| **AG Grid**          | Professional data table to manage large datasets |
+| **CSS3**             | Clean and responsive styling                     |
+| **JavaScript (ES6)** | Functional and modern code                       |
+| **Fake JSON Data**   | Randomly generated realistic fertilizer dataset  |
 
 ---
 
@@ -56,6 +60,7 @@ A dynamic, interactive, and data-driven **Fertilizer Dashboard** built using **R
 ---
 
 ## 📁 Folder Structure
+
 ```
 fertilizer/
 ├── node_modules/                # Project dependencies
@@ -88,10 +93,31 @@ fertilizer/
 ├── README.md                    # Interview-ready main README file
 ```
 
+### Installation and Setup
+
+1. Clone the repo
+   ```sh
+   git remote add origin https://github.com/mrsaffu/Fylo-Assessment.git
+   ```
+   ```
+   git branch -M main
+   ```
+2. Install packages
+   ```sh
+   npm install or yarn install
+   ```
+3. To start server
+   ```sh
+    npm start or yarn start
+   ```
+4. To visit App
+   ```sh
+   localhost:3000
+   ```
 
 ## 🙋 About Me
-I am a passionate Full Stack Developer familiar with both frontend and backend technologies. This dashboard showcases my skills in building clean UI, reusable components, and working with data visualizations.
 
+I am a passionate Full Stack Developer familiar with both frontend and backend technologies. This dashboard showcases my skills in building clean UI, reusable components, and working with data visualizations.
 
 ## 📞 Contact
 
@@ -100,7 +126,5 @@ I am a passionate Full Stack Developer familiar with both frontend and backend t
 - Email: ahmadsafwan034@gmail.com
 - Phone: ( +91 9546948075 )
 
-
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mrrsaffu/)  
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mrsaffu)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mrsaffu)

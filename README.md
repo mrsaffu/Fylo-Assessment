@@ -1,4 +1,3 @@
-
 <div id="top"></div>
 
 <br />
@@ -41,40 +40,111 @@
 
 The project is to create a dashboard for fyllo, displaying the table, which contains the list of fertilizer and their details like availability, requirements etc. And the analytics which is shown in graph so the user can easily know about the insights.Finally this project contains some dummy placeholders to make it look good eg: Navbar.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-### Built With
-
-Here is the list of libraries and frameworks used for the project
-
-- [React.js](https://reactjs.org/)
-- [Ag Grid](https://reactjs.org/)
-- [Re Charts](https://reactjs.org/)
-- [Material UI](https://reactjs.org/)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
-## Getting Started
+# 🌱 Fertilizer Supply Chain Dashboard
 
-To get a local copy up and running follow these simple example steps.
+A dynamic, interactive, and data-driven **Fertilizer Dashboard** built using **React.js**, **Recharts**, and **AG Grid** to visualize and analyze fertilizer requirement and availability across Indian states over months and years.
 
-### Prerequisites
+> 🚀 This dashboard is designed for internal analytics and decision-making to help improve supply chain planning in a fertilizer company.
 
-To run this project, You’ll need to have
+---
 
-- npm
-  ```sh
-  Node v14.17.6 or greater
-  npm 6.14.15 or greater
-  ```
+## 📊 Features
+
+- 📌 **Dashboard Overview Cards**
+
+  - Total Fertilizers
+  - Total States Covered
+  - Total Records Tracked
+
+- 🥇 **Top Fertilizers Analysis (Pie Charts)**
+
+  - Top 5 Most Required Fertilizers
+  - Top 5 Least Available Fertilizers
+
+- 📅 **Year-wise Comparison (Bar Chart)**
+
+  - Filter by **Fertilizer Product** and **State**
+  - Visualize total **Requirement vs Availability** per year
+
+- 📆 **Month-wise Comparison (Area Chart)**
+
+  - Filter by **Fertilizer Product** and **Year**
+  - Beautiful smooth area chart to show monthly **Requirement vs Availability**
+
+- 📋 **AG Grid Table View**
+  - Fully sortable and searchable data table
+  - Column-wise filtering
+  - Highly responsive and customizable
+
+---
+
+## 🛠️ Tech Stack Used
+
+| Technology           | Description                                      |
+| -------------------- | ------------------------------------------------ |
+| **React.js**         | UI library for building reusable components      |
+| **Recharts**         | Charting library used for all beautiful charts   |
+| **AG Grid**          | Professional data table to manage large datasets |
+| **CSS3**             | Clean and responsive styling                     |
+| **JavaScript (ES6)** | Functional and modern code                       |
+| **Fake JSON Data**   | Randomly generated realistic fertilizer dataset  |
+
+---
+
+## 🧠 Smart UI Highlights
+
+- ✅ **Reusable Chart Components**
+- 🎨 Clean, responsive, and modern design
+- 🌐 Filters that provide real-time chart updates
+- 🧩 Modular folder structure (easy to maintain and extend)
+- ⚙️ Simple and readable code logic (interviewer-friendly)
+
+---
+
+## 📁 Folder Structure
+
+```
+fertilizer/
+├── node_modules/                # Project dependencies
+├── public/                      # Public assets like index.html, favicon etc.
+├── src/                         # Source code
+│   ├── Components/              # Reusable components
+│   │   ├── AnalyticsCards/      # Cards showing analytics
+│   │   ├── FertilizerGraph/     # Graph-related components
+│   │   ├── MonthlyBarChart/     # Monthly bar chart component
+│   │   ├── Sidebar/             # Sidebar navigation
+│   │   ├── Topbar/              # Top navigation bar
+│   │   ├── YearlyBarChart/      # Year-wise bar chart component
+│   │   ├── Components.css       # Shared CSS for components
+│   │   ├── PieChartBox.jsx      # Pie chart box component
+│   │   └── StatCard.jsx         # Statistics card component
+│   ├── Pages/                   # Page components for routing
+│   │   ├── GraphPage/           # Page for displaying various graphs
+│   │   ├── Home/                # Homepage component
+│   │   └── ProductList/         # Product listing table (AG Grid)
+│   ├── data/                    # Static/fake JSON data
+│   ├── App.js                   # Root app component
+│   ├── App.css                  # Global styles
+│   ├── index.js                 # Entry point of React app
+│   ├── utils.js                 # Utility/helper functions
+│   ├── result.js                # Data processing logic
+│   └── output.mjs               # Final output module (ES Module)
+├── .gitignore                   # Git ignored files
+├── package.json                 # Project metadata and scripts
+├── package-lock.json            # Exact dependency tree
+├── README.md                    # Interview-ready main README file
+```
 
 ### Installation and Setup
 
 1. Clone the repo
    ```sh
-   git clone https://ankitsingh_16@bitbucket.org/ankitsingh_16/fertilizer.git
+   git remote add origin https://github.com/mrsaffu/Fylo-Assessment.git
+   ```
+   ```
+   git branch -M main
    ```
 2. Install packages
    ```sh
@@ -88,8 +158,17 @@ To run this project, You’ll need to have
    ```sh
    localhost:3000
    ```
-   <p align="right">(<a href="#top">back to top</a>)</p>
 
+## 🙋 About Me
 
-<p align="right">(<a href="#top">back to top</a>)</p>
->>>>>>> 3d1ec36 (add fylo assesment)
+I am a passionate Full Stack Developer familiar with both frontend and backend technologies. This dashboard showcases my skills in building clean UI, reusable components, and working with data visualizations.
+
+## 📞 Contact
+
+- Name: Safwan Ahmad
+<!-- - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mrrsaffu/) -->
+- Email: ahmadsafwan034@gmail.com
+- Phone: ( +91 9546948075 )
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mrrsaffu/)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mrsaffu)
