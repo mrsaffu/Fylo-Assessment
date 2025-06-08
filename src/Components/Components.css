@@ -1,0 +1,63 @@
+.pie-chart-box {
+  background: linear-gradient(to bottom, #ffffff, #f7f7f7);
+  border-radius: 14px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 15px;
+  flex: 1;
+  min-width: 340px;
+  transition: transform 0.3s ease;
+  border: 1px solid #e0e0e0;
+}
+
+.pie-chart-box:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.chart-header {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+/* Chart section layout */
+.chart-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 10px;
+}
+
+
+/* stat card */
+
+.stat-card {
+  flex: 1 1 200px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
+}
+
+.stat-card h3 {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.stat-card p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #007bff;
+}

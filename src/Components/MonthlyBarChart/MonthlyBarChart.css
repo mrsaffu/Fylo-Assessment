@@ -1,0 +1,23 @@
+/* In your CSS file (e.g., Home.css or MonthlyBarChart.css) */
+.monthly-chart-container {
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+.monthly-chart-filters {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.monthly-chart-filters select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.graph-container {
+    /* border: 2px solid red; */
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+  padding: 20px;
+}
+
+.graph-title {
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #444;
+}
