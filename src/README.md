@@ -90,7 +90,7 @@ fertilizer/
 ├── .gitignore                   # Git ignored files
 ├── package.json                 # Project metadata and scripts
 ├── package-lock.json            # Exact dependency tree
-├── README.md                    # Interview-ready main README file
+├── README.md                    # About assessment README file
 ```
 
 ### Installation and Setup
