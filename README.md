@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <h1 style="color: #60AC4A;">
-    Fyllo Interview Task
+    Fyllo fertilizer company
   </h1>
 
   <p align="center">
